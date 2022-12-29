@@ -1,0 +1,40 @@
+.navbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar div {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navbar .icon1 {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.navbar .icon2 {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+.navbar h5 {
+  font-size: 0.7rem;
+}
+.navbar .icon3 {
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+}
+
+.divider {
+  width: 1px;
+  background: #0000001a;
+  height: 28px;
+}

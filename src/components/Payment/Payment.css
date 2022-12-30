@@ -1,10 +1,19 @@
 .payment {
-    padding: 10px 50px 0px 50px;
+    padding: 10px 50px 0px 0px;
 }
-/* .header1, p {
-    margin-left: 300px;
+.head h2 {
     margin-bottom: 30px;
-} */
+    /* margin-left: 250px; */
+    text-align: center;
+    font-weight: 550;
+    font-size: 34px;
+}
+.head p {
+    /* margin-left: 250px; */
+    text-align: center;
+    font-weight: 540;
+    font-size: 18px;
+}
 .pay {
     width: 100%;
     padding: 30px;
@@ -14,15 +23,127 @@
     flex-direction: column;
   }
 .pay h5 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 .pay p {
-    margin-bottom: 20px;
-    font-size: 0.83rem;
+    margin-bottom: 60px;
+    font-size: 0.98rem;
     font-weight: 500;
+    margin-left: 30px;
 }
 .pay h6 {
-    font-size: 1.0rem;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid #C867E2;
+    height: 70px;
+    width: 100%;
+}
+.iconss {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box p {
+    margin-left: 60px;
+    margin-top: -25px;
+    font-weight: 550;
+    font-size: 14px;
+}
+.box h6 {
+    margin-left: 60px;
+    margin-top: -55px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.add {
+    background: #C867E2;
+    border: none;
+    width: 10%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Lora';
+}
+.bttns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -72px;
+}
+.box1 {
+    box-sizing: border-box;
+    border: 1px solid #C867E2;
+    height: 70px;
+    width: 100%;
+    margin-top: 30px;
+}
+.iconss1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box1 p {
+    margin-left: 60px;
+    margin-top: -35px;
+    font-weight: 550;
+    font-size: 14px;
+}
+.box1 h6 {
+    margin-left: 60px;
+    margin-top: -55px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.add1 {
+    background: #C867E2;
+    border: none;
+    width: 10%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Lora';
+}
+.bttns1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -72px;
+}
+.bttns2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 50px;
+    width: 100%;
+}
+.ads {
+    background: #FFFFFF;
+    border: 1px solid #C867E2;
+    width: 10%;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Lora';
+}
+.adds {
+    background: #C867E2;
+    border: none;
+    width: 10%;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Lora';
 }

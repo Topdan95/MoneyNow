@@ -20,7 +20,7 @@ const SideBar = () => {
             <li className="sidenav_active"><Link  to="/"><img src={home} alt="home" />Overview</Link></li>
             <li><Link  to="/join-group"><img src={group} alt="group" />Join Group </Link></li>
             <li><Link  to="/payment"><img src={atm} alt="atm" />Payment</Link></li>
-            <li><Link  to="#"><img src={referral} alt="referral" />Referral</Link></li>
+            <li><Link  to="/referral"><img src={referral} alt="referral" />Referral</Link></li>
             <li className="more"><Link  to="#"><img src={more} alt="more" />More</Link></li>
           </ul>
         </div>

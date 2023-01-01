@@ -3,24 +3,22 @@
 }
 .refer {
     width: 100%;
-    padding: 30px;
+    padding: 10px 30px 0px 30px;
     background: #ffffff;
-    box-shadow: 0px 3px 8px rgba(41, 41, 41, 0.13);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
   }
 .refer h2 {
-    font-weight: 550;
-    font-size: 34px;
     margin-left: 30px;
 }
 .refer p {
     margin-left: 30px;
-    margin-top: 20px;
     font-weight: 400;
     font-size: 12px;
+    margin-bottom: 20px;
 }
-span {
+.text-blue {
     color: #C867E2;
 }
 .referrals {
@@ -32,27 +30,75 @@ span {
 }
 .friends {
     width: 32%;
-    padding: 30px;
+    padding: 20px;
     background: #ffffff;
-    box-shadow: 0px 3px 8px rgba(41, 41, 41, 0.13);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.22);
     border-radius: 16px;
     display: flex;
+    height: 220px;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .referrals h6 {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 0.7rem;
+    width: 50%;
 }
 .friends img {
     margin-bottom: 30px;
+    height: 70px;
+    width: 70px;
+}
+.message input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #C867E2;
+    border-radius: 10px;
 }
 .texxt h5 {
-    font-weight: 500;
-    font-size: 22px;    
+    font-weight: 550;
+    font-size: 0.95rem; 
+    padding-bottom: 5px;   
 }
 .texxt h6 {
     font-weight: 400;
-    font-size: 12px;
-    padding-top: 10px;
+    font-size: 0.7rem;
+}
+.texxt .message {
+    position: relative;
+    margin: 10px -30px 10px -30px;
+}
+.message .myy {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.test input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #C867E2;
+    border-radius: 10px;
+}
+.texxt .test {
+    position: relative;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.test .myyy {
+    position: absolute;
+    left: 470px;
+    top: 7px;
+}
+.performance {
+    text-align: center;
+    padding: 20px;
+}
+.bttns3 {
+    background: #C867E2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 25%;
 }

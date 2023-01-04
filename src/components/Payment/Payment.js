@@ -2,6 +2,7 @@ import React from "react";
 import "./Payment.css";
 import bank from "../../Images/bank.svg";
 import card from "../../Images/card.svg";
+import { Link } from "react-router-dom";
 
 const Payment = () => {
   return (
@@ -27,8 +28,7 @@ const Payment = () => {
                 <h6>Pay via bank transfer</h6>
               </div>
             </div>
-
-            <button className="add butn btn-pry">Add Bank</button>
+            <Link to="/payout"><button className="add butn btn-pry">Add Bank</button></Link>
           </div>
           <div className="box">
             <div className="contner">

@@ -1,0 +1,73 @@
+.method {
+    padding: 20px 15px 30px 15px;
+}
+.select {
+    margin-top: 20px;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+}
+.select h5 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    text-align: center;
+}
+  .select p {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 30px;
+    width: 40%;
+}
+  .boxx input {
+    padding: 20px;
+    width: 50%;
+    background: #FFFFFF;
+    border: 1px solid #C867E2;
+    text-align: center;
+}
+.boxx .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px 70px 40px;
+}
+.boxx p {
+    font-weight: 550;
+    margin-bottom: 5px;
+    margin-left: 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  .bttns22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 55%;
+   } 
+  .buttn {
+    border: none;
+    padding: 8px 22px;
+    width: 120px;
+    margin: 0 4px;
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  .btn-prys {
+    background: #c867e2;
+    color: #fff;
+    margin-bottom: 70px;
+  }
+  .btn-whites {
+    background: #fff;
+    border: 1px solid #c867e2;
+    margin-left: 30px;
+  }
+  

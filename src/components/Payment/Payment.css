@@ -4,12 +4,13 @@
 .head .header {
   text-align: center;
 }
-
 .head p {
   text-align: center;
   font-weight: 600;
+  margin-top: 20px;
 }
 .pay {
+  margin-top: 20px;
   width: 100%;
   background: #ffffff;
   display: flex;
@@ -17,12 +18,13 @@
   flex-direction: column;
 }
 .pay h5 {
+  margin-top: 20px;
   font-size: 1.2rem;
   margin-bottom: 20px;
   margin-left: 30px;
 }
 .pay p {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-size: 0.8rem;
   font-weight: 500;
   margin-left: 30px;

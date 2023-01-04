@@ -44,8 +44,7 @@ const Referral = () => {
           <h5>Share the referral code</h5>
           <h6>
             You can also share your referral code by copying and sending or
-            sharing it on your social media Money
-            <span className="text-blue">Now</span>
+            sharing it on your social media 
           </h6>
           <div className="test">
           <input type="text" name="email" placeholder="AB0AJr4G" />
